@@ -23,6 +23,13 @@ public class RemoteController {
         }
     }
 
+
+    public void setOnCommands(int no, Command onCommand, Command offCommand) {
+        onCommands[no] = onCommand;
+        offCommands[no] = offCommand;
+    }
+
+
     /**
      * 按下开按钮
      * @param no
