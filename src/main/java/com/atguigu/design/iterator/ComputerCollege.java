@@ -35,7 +35,6 @@ public class ComputerCollege  implements College{
 
     @Override
     public Iterator createIterator() {
-        //TODO
         return new ComputerCollegeIterator(departments);
     }
 }
